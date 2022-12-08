@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+    margin: 0;
+    width: 100vw;
+}
+
+#header-menu{
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ff8547;
+    width: 100vw;
+    height: 4rem;
+    border-bottom: 1px solid #000000;
+}
+
+.header-menu p{
+    justify-content: flex-start;
+}
+
+.hamburger{
+    width: 3rem;
+    cursor: pointer;
+}
+
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('img/header.jpg');
+    background-size: cover;
+    width: 100vw;
+    height: 15rem;
+    border-bottom: 1px solid #000000;
+    background-position: left;
+    box-shadow: -1px 4px 25px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 4px 25px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 4px 25px 0px rgba(0,0,0,0.75);
+}
+#header-middle h2{
+    color: white;
+}
+
+#header-middle{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+#title{
+    color: white;
+}
+
+.gps{
+    width: auto;
+    height: 40px;
+}
+
+
+
+.restaurant{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 7rem;
+    top: 120px;
+    position: relative;
+    object-fit: cover;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    box-shadow: -1px 4px 25px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 4px 25px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 4px 25px 0px rgba(0,0,0,0.75);
+}
+
+#restaurant-info{
+    font-family: 'Lato', sans-serif;
+    padding-left: 14rem;
+    padding-right: 14rem;
+    padding-top: 2rem;
+}
+
+#restaurant-name{
+    margin: 0;
+}
+
+.stars{
+    width: auto;
+    height: 25px;
+}
+
+.review{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    padding-top: 12px;
+}
+
+#menu{
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.menu-card{
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    border-radius: 11px;
+    border: 2px solid rgba(0,0,0,0.2);
+    margin-top: 2rem;
+    padding: 20px;
+    width: 80vw;
+}
+
+.orderButton {
+    text-decoration: none;
+    width: 185px;
+    height: 26px;
+    font-size: 20px;
+    color: #ffffff;
+    background: #1d57eb;
+    border: 2px solid #91b2ff;
+    border-radius: 10px;
+    font-family: arial;
+    transition: all 0.25s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.orderButton:hover {
+    color: #000000;
+    background: #ffffff;
+    border-color: none;
+}
+
+.add-menu{
+    display: flex;
+    align-items: flex-start;
+    justify-content: end;
+}
